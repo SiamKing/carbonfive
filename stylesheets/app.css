@@ -85,42 +85,6 @@ hr {
   border-right: 1px solid #e5e5e5;
 }
 
-blockquote {
-  padding: 0;
-  font-size: 36px;
-  border-left: none;
-  padding-left: 30px;
-  text-indent: -10px;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
-  font-style: italic;
-}
-
-blockquote:before,
-blockquote:after,
-blockquote footer:before,
-blockquote small:before,
-blockquote .small:before {
-  content: none;
-}
-
-blockquote footer, blockquote small, blockquote .small {
-  color: inherit;
-}
-
-blockquote footer {
-  margin-top: 30px;
-  padding-left: 10px;
-  font-style: normal;
-}
-
-blockquote footer small {
-  font-style: italic;
-}
-
 iframe[name=google_conversion_frame] {
   display: none;
 }
@@ -247,30 +211,6 @@ iframe[name=google_conversion_frame] {
   font-size: 14px;
 }
 
-.event-cha {
-  background: #e22d50;
-}
-
-a.event-cha:hover {
-  background: #c92849;
-}
-
-.event-nyc {
-  background: #696a6d;
-}
-
-a.event-nyc:hover {
-  background: #5f6062;
-}
-
-.event-unk {
-  background: #025A6E;
-}
-
-a.event-unk:hover {
-  background: #024554;
-}
-
 .nav>li>a:hover, .nav>li>a:focus {
   background-color: #e5e5e5;
 }
@@ -300,39 +240,8 @@ a.event-unk:hover {
   transition: all .25s ease-in-out;
 }
 
-.list-categories li {
-  color: #d3d3d3;
-}
-
-.list-categories li.active {
-  color: #404040;
-}
-
 .nav-filters>li+li {
   margin-left: 0;
-}
-
-.list-categories>li {
-  margin-bottom: 10px;
-}
-
-.list-categories>li>a {
-  color: #c2dcdf;
-  padding: 5px;
-  margin: -5px -5px 5px -5px;
-  text-decoration: underline;
-}
-
-.list-categories>li.active>a {
-  color: #049AAB;
-}
-
-.list-categories>li.active>a:hover {
-  background-color: #e5e5e5;
-  -webkit-transition: all .25s ease-in-out;
-  -moz-transition: all .25s ease-in-out;
-  -o-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
 }
 
 .form-group {
@@ -379,27 +288,6 @@ a.event-unk:hover {
     font-style: normal;
 
 }
-/*@font-face {
-  font-family: 'pentel';
-  src:url('/fonts/pentel.eot');
-  src:url('/fonts/pentel.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pentel.woff') format('woff'),
-    url('/fonts/pentel.ttf') format('truetype'),
-    url('/fonts/pentel.svg#pentel') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-    font-family: 'permanent_markerregular';
-    src: url('..fonts/PermanentMarker-webfont.eot');
-    src: url('PermanentMarker-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/PermanentMarker-webfont.woff') format('woff'),
-         url('../fonts/PermanentMarker-webfont.ttf') format('truetype'),
-         url('../fonts/PermanentMarker-webfont.svg#permanent_markerregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}*/
 
 .hero {
   background-repeat: no-repeat;
@@ -442,22 +330,6 @@ a.event-unk:hover {
 .hero .btn:hover,
 .sections-fullpage .btn:hover {
   opacity: 0.8;
-}
-
-.hero-about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/team.jpg);
-}
-
-.hero-contact {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coffee.jpg);
-}
-
-.hero-events {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/lunch.jpg);
-}
-
-.hero-careers {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/collaboration.jpg);
 }
 
 .hero-work {
