@@ -579,12 +579,12 @@ a.event-unk:hover {
   background-size: cover;
 }
 
-.project-thumb-TJ-Hill-Dev {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/TJ-Hill-Dev.png);
+.project-thumb-portfolio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/portfolio.png);
 }
 
-.project-thumb-TJ-Hill-Dev:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/TJ-Hill-Dev.png);
+.project-thumb-portfolio:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/portfolio.png);
 }
 
 .project-thumb-medidate {
@@ -1540,26 +1540,6 @@ form.hs-form fieldset.form-columns-1 .hs-input {
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   background: #fff;
-}
-
-.carousel-control {
-  opacity: 1;
-}
-
-.carousel-control.left,
-.carousel-control.right {
-  background-image: none;
-}
-
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.5);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 20px;
-  font-size: 21px;
-  text-shadow: none;
-  text-align: left;
 }
 
 /* c5 icon font styles */
