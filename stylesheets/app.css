@@ -369,6 +369,17 @@ a.event-unk:hover {
 }
 
 @font-face {
+    font-family: 'action_manitalic';
+    src: url('../fonts/Action_Man_Italic-webfont.eot');
+    src: url('../fonts/Action_Man_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Action_Man_Italic-webfont.woff') format('woff'),
+         url('../fonts/Action_Man_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/Action_Man_Italic-webfont.svg#action_manitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*@font-face {
   font-family: 'pentel';
   src:url('/fonts/pentel.eot');
   src:url('/fonts/pentel.eot?#iefix') format('embedded-opentype'),
@@ -378,6 +389,17 @@ a.event-unk:hover {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: 'permanent_markerregular';
+    src: url('..fonts/PermanentMarker-webfont.eot');
+    src: url('PermanentMarker-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PermanentMarker-webfont.woff') format('woff'),
+         url('../fonts/PermanentMarker-webfont.ttf') format('truetype'),
+         url('../fonts/PermanentMarker-webfont.svg#permanent_markerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
 
 .hero {
   background-repeat: no-repeat;
@@ -389,7 +411,7 @@ a.event-unk:hover {
 .hero h1,
 .sections-fullpage h1,
 .event h1 {
-  font-family: pentel, Helvetica, Arial, sans-serif;
+  font-family: action_manitalic, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 54px;
   text-align: center;
@@ -439,7 +461,7 @@ a.event-unk:hover {
 }
 
 .hero-work {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coding.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/coding.jpg);
 }
 
 .hero-assessment {
@@ -557,196 +579,28 @@ a.event-unk:hover {
   background-size: cover;
 }
 
-.project-thumb-primemind {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/primemind.jpg);
+.project-thumb-TJ-Hill-Dev {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/TJ-Hill-Dev.png);
 }
 
-.project-thumb-primemind:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/primemind.jpg);
+.project-thumb-TJ-Hill-Dev:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/TJ-Hill-Dev.png);
 }
 
-.project-thumb-fertilityiq {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/fertilityiq.jpg);
+.project-thumb-medidate {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/medidate.png);
 }
 
-.project-thumb-fertilityiq:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/fertilityiq.jpg);
+.project-thumb-medidate:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/medidate.png);
 }
 
-.project-thumb-vueops {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/vueops.jpg);
+.project-thumb-produce-app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/produce-app.png);
 }
 
-.project-thumb-vueops:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/vueops.jpg);
-}
-
-.project-thumb-masterclass {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/masterclass.jpg);
-}
-
-.project-thumb-masterclass:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/masterclass.jpg);
-}
-
-.project-thumb-prosper {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/prosper.jpg);
-}
-
-.project-thumb-prosper:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/prosper.jpg);
-}
-
-.project-thumb-cognoa {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/cognoa.jpg);
-}
-
-.project-thumb-cognoa:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/cognoa.jpg);
-}
-
-.project-thumb-npgl {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/npgl.jpg);
-}
-
-.project-thumb-npgl:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/npgl.jpg);
-}
-
-.project-thumb-mytheo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/mytheo.jpg);
-}
-
-.project-thumb-mytheo:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/mytheo.jpg);
-}
-
-.project-thumb-thumbtack {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/thumbtack.jpg);
-}
-
-.project-thumb-thumbtack:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/thumbtack.jpg);
-}
-
-.project-thumb-altschool {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/altschool.jpg);
-}
-
-.project-thumb-altschool:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/altschool.jpg);
-}
-
-.project-thumb-scootdoodle {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/scootdoodle.jpg);
-}
-
-.project-thumb-scootdoodle:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/scootdoodle.jpg);
-}
-
-.project-thumb-dabohealth {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/dabohealth.jpg);
-}
-
-.project-thumb-dabohealth:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/dabohealth.jpg);
-}
-
-.project-thumb-creditcom {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/creditcom.jpg);
-}
-
-.project-thumb-creditcom:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/creditcom.jpg);
-}
-
-.project-thumb-asianart {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/asianart.jpg);
-}
-
-.project-thumb-asianart:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/asianart.jpg);
-}
-
-.project-thumb-stitchfix {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/stitchfix.jpg);
-}
-
-.project-thumb-stitchfix:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/stitchfix.jpg);
-}
-
-.project-thumb-fandango {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/fandango.jpg);
-}
-
-.project-thumb-fandango:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/fandango.jpg);
-}
-
-.project-thumb-nissan {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/nissan.jpg);
-}
-
-.project-thumb-nissan:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/nissan.jpg);
-}
-
-.project-thumb-farmers {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/farmers.jpg);
-}
-
-.project-thumb-farmers:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/farmers.jpg);
-}
-
-.project-thumb-goodeggs {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/goodeggs.jpg);
-}
-
-.project-thumb-goodeggs:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/goodeggs.jpg);
-}
-
-.project-thumb-bebop {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/bebop.jpg);
-}
-
-.project-thumb-bebop:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/bebop.jpg);
-}
-
-.project-thumb-farewell {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/farewell.jpg);
-}
-
-.project-thumb-farewell:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/farewell.jpg);
-}
-
-.project-thumb-dobot {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/dobot.jpg);
-}
-
-.project-thumb-dobot:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/dobot.jpg);
-}
-
-.project-thumb-candor {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/candor.jpg);
-}
-
-.project-thumb-candor:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/candor.jpg);
-}
-
-.project-thumb-cjm {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/cjm.jpg);
-}
-
-.project-thumb-cjm:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/cjm.jpg);
+.project-thumb-produce-app:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/produce-app.png);
 }
 
 .screenshot-macbook,
@@ -1823,8 +1677,8 @@ form.hs-form fieldset.form-columns-1 .hs-input {
   background: #f7f4f0;
 }
 
-h1.pentel {
-  font-family: pentel, Helvetica, Arial, sans-serif;
+h1.action_manitalic {
+  font-family: action_manitalic, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 54px;
 }
