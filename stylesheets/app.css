@@ -335,14 +335,6 @@ iframe[name=google_conversion_frame] {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tj_desk.jpg);
 }
 
-.hero-assessment {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/domain-modeling.jpg);
-}
-
-.hero-404 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/404.jpg);
-}
-
 .blocklist {
   text-align: center;
   padding-top: 20px;
